@@ -1,6 +1,6 @@
 "use client";
 import { SearchBar } from "@/components";
-import { Menu, Search, ShoppingCart, User, XIcon } from "lucide-react";
+import { Menu, Search, ShoppingCart, XIcon } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";

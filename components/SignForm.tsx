@@ -32,15 +32,15 @@ const SignForm = (props: Props) => {
     console.log(data);
     router.push("/signin");
     return;
-    axios
-      .post("/api/register", data)
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((err) => console.log("Error", err.message))
-      .finally(() => {
-        router.replace("/signin");
-      });
+    // axios
+    //   .post("/api/register", data)
+    //   .then((response) => {
+    //     console.log(response);
+    //   })
+    //   .catch((err) => console.log("Error", err.message))
+    //   .finally(() => {
+    //     router.replace("/signin");
+    //   });
   };
 
   const isButtonDisabled =
